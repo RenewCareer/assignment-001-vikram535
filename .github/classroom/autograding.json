@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Part 1 – Variables & Data Types",
+      "setup": "pip install pytest pytest-cov",
+      "run": "pytest tests/test_python_basics.py -v --tb=short",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 30
+    },
+    {
+      "name": "Part 2 – Data Structures",
+      "setup": "pip install pytest pytest-cov",
+      "run": "pytest tests/test_data_structures.py -v --tb=short",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 40
+    },
+    {
+      "name": "Part 3 – Control Flow",
+      "setup": "pip install pytest pytest-cov",
+      "run": "pytest tests/test_control_flow.py -v --tb=short",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 30
+    }
+  ]
+}
